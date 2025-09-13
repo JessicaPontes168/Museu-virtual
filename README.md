@@ -13,4 +13,7 @@ O objetivo é valorizar a cultura, educação e a preservação histórica por m
 ## 🛠 Tecnologias Utilizadas
 - 🌐 HTML  
 - 🎨 CSS  
-- ⚡ JavaScript  
+- ⚡ JavaScript
+
+- ![Imagem do WhatsApp de 2025-09-13 à(s) 20 20 07_a7c5dc88](https://github.com/user-attachments/assets/57c05698-ae29-4a6d-9374-2d59b94c6bdc)
+

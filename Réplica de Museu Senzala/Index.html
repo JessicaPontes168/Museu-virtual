@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Virtual de Redenção</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#trabalhos">Trabalho Escravo</a></li>
+            <li><a href="#castigos">Castigos</a></li>
+            <li><a href="#abolicao">Abolição</a></li>
+            <li><a href="#biografia">Curador</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Museu Virtual de Redenção</h1>
+            <p>Uma jornada pela história da escravidão e da liberdade no Brasil</p>
+            <a href="#modalAgendamento" class="abrirModalBtn">Agende sua visita</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modalAgendamento" class="modal">
+        <div class="modal-content">
+            <a href="#" class="fecharModal">&times;</a>
+            <h2>Agende um atendimento:</h2>
+            <form>
+                <label for="data">Data da visita:</label><br>
+                <input type="date" id="data" name="data" required><br><br>
+
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="hora">Horário:</label><br>
+                <select id="hora" name="hora" required>
+                    <option value="" disabled selected>Selecione um horário</option>
+                    <optgroup label="Manhã">
+                        <option value="09:00">09:00</option>
+                        <option value="10:00">10:00</option>
+                    </optgroup>
+                    <optgroup label="Tarde">
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                    </optgroup>
+                </select><br><br>
+
+                <button type="submit" class="abrirModalBtn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Conteúdo -->
+    <main>
+        <section id="trabalhos">
+            <h2>Trabalhos Escravos</h2>
+            <p>Descrição dos trabalhos escravos...</p>
+            <img src="Agricultura.jpg" alt="Trabalhos Escravos">
+        </section>
+
+        <section id="castigos">
+            <h2>Castigos Severos dos Escravos</h2>
+            <p>Descrição dos castigos severos...</p>
+            <img src="Exemplo002.jpg" alt="Castigos">
+        </section>
+
+        <section id="abolicao">
+            <h2>Abolição da Escravatura</h2>
+            <p>Descrição sobre a abolição...</p>
+            <img src="senzala.jpg" alt="Senzala">
+        </section>
+
+        <section id="biografia">
+            <h2>Sobre o Curador</h2>
+            <p>Meu nome é Jéssica Pontes...</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Museu Virtual de Redenção. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
